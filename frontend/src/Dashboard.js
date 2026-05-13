@@ -32,7 +32,8 @@ function Dashboard() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://127.0.0.1:8000/uploads",
+        `${process.env.REACT_APP_API_URL}/uploads`,
+
         {
           headers: {
             Authorization: `Bearer ${token}`
@@ -55,7 +56,8 @@ function Dashboard() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://127.0.0.1:8000/analytics",
+        `${process.env.REACT_APP_API_URL}/analytics`,
+        
         {
           headers: {
             Authorization: `Bearer ${token}`

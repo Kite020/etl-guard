@@ -29,7 +29,7 @@ function UploadPage() {
       const token = localStorage.getItem("token");
 
       const res = await axios.post(
-        "http://127.0.0.1:8000/upload",
+        `${process.env.REACT_APP_API_URL}/upload`,
         formData,
         {
           headers: {
@@ -253,7 +253,7 @@ function UploadPage() {
               Cleaned Dataset
             </h3>
             <a
-              href={`http://127.0.0.1:8000/download/${response.download_file}`}
+              href={`${process.env.REACT_APP_API_URL}/download/${response.download_file}`}
               className="btn btn-success mb-3"
             >
 
