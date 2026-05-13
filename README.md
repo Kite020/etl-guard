@@ -319,3 +319,47 @@ Datasets used for testing:
 - Dirty Cafe Sales Dataset
 - Employee Dirty Dataset
 
+# Future Improvements
+
+- Real-time ETL monitoring
+- Apache Airflow integration
+- Machine learning based anomaly detection
+- Export reports in PDF/Excel format
+- Email notifications for failed uploads
+- Support for Excel and JSON datasets
+- CI/CD pipeline integration
+- Kubernetes deployment support
+
+---
+
+# Author
+
+## Ankita Dash
+
+GitHub:  
+https://github.com/your-github-username
+
+LinkedIn:  
+https://linkedin.com/in/your-linkedin-username
+
+---
+
+# License
+
+This project is licensed under the MIT License.
+
+```
+MIT License
+
+Copyright (c) 2026 Ankita Dash
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+```
+
