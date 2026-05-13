@@ -315,9 +315,8 @@ REACT_APP_API_URL=https://etl-guard.onrender.com
 
 Datasets used for testing:
 
-- Bad Data CSV
-- Dirty Cafe Sales Dataset
-- Employee Dirty Dataset
+- Dirty Cafe Sales Dataset(kaggle)
+- Employee Dirty Dataset(kaggle)
 
 # Future Improvements
 
@@ -337,10 +336,10 @@ Datasets used for testing:
 ## Ankita Dash
 
 GitHub:  
-https://github.com/your-github-username
+https://github.com/Kite020
 
 LinkedIn:  
-https://linkedin.com/in/your-linkedin-username
+https://www.linkedin.com/in/ankita-dash-3377b1245/
 
 ---
 
