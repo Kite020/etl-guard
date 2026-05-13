@@ -5,7 +5,7 @@ A full-stack ETL monitoring and data quality platform that allows users to uploa
 ## Live Demo
 
 Frontend (Vercel):  
-https://your-vercel-app.vercel.app
+https://etl-guard.vercel.app/
 
 Backend API (Render):  
 https://etl-guard.onrender.com
