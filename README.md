@@ -102,3 +102,219 @@ React Frontend (Vercel)
 FastAPI Backend (Render)
         ↓
 PostgreSQL Database (Neon)
+
+# Installation & Local Setup
+
+## Clone Repository
+
+```bash
+git clone https://github.com/your-username/etl-guard.git
+
+cd etl-guard
+```
+
+---
+
+# Backend Setup
+
+## Navigate to Backend
+
+```bash
+cd backend
+```
+
+## Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+## Activate Virtual Environment
+
+### Mac/Linux
+
+```bash
+source venv/bin/activate
+```
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+---
+
+## Install Backend Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Run FastAPI Backend
+
+```bash
+uvicorn app.main:app --reload
+```
+
+Backend will run on:
+
+```text
+http://127.0.0.1:8000
+```
+
+Swagger Docs:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+---
+
+# Frontend Setup
+
+## Navigate to Frontend
+
+```bash
+cd frontend
+```
+
+## Install Frontend Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## Create Environment Variable File
+
+Create a `.env` file inside the `frontend` folder.
+
+Add:
+
+```env
+REACT_APP_API_URL=http://127.0.0.1:8000
+```
+
+---
+
+## Run React Frontend
+
+```bash
+npm start
+```
+
+Frontend will run on:
+
+```text
+http://localhost:3000
+```
+
+---
+
+# Docker Setup
+
+## Run Full Application with Docker
+
+From the root project folder:
+
+```bash
+docker compose up --build
+```
+
+---
+
+## Run Docker in Background
+
+```bash
+docker compose up -d
+```
+
+---
+
+## Stop Docker Containers
+
+```bash
+docker compose down
+```
+
+---
+
+# Production Deployment
+
+## Frontend Deployment
+
+Frontend deployed using Vercel:
+
+```text
+https://your-vercel-app.vercel.app
+```
+
+---
+
+## Backend Deployment
+
+Backend deployed using Render:
+
+```text
+https://etl-guard.onrender.com
+```
+
+---
+
+## Database Hosting
+
+PostgreSQL database hosted on Neon.
+
+---
+
+# Environment Variables
+
+## Frontend `.env`
+
+```env
+REACT_APP_API_URL=https://etl-guard.onrender.com
+```
+
+---
+
+# API Endpoints
+
+## Authentication APIs
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/signup` | Register a new user |
+| POST | `/login` | Login existing user |
+
+---
+
+## ETL APIs
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/upload` | Upload CSV dataset |
+| GET | `/download/{filename}` | Download cleaned CSV |
+
+---
+
+## Dashboard APIs
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/uploads` | Fetch upload history |
+| GET | `/analytics` | Fetch analytics summary |
+
+---
+
+# Sample Test Datasets
+
+Datasets used for testing:
+
+- Bad Data CSV
+- Dirty Cafe Sales Dataset
+- Employee Dirty Dataset
+
