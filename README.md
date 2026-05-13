@@ -96,12 +96,13 @@ Displays:
 
 # Project Architecture
 
-```text
+```
 React Frontend (Vercel)
         ↓
 FastAPI Backend (Render)
         ↓
 PostgreSQL Database (Neon)
+```
 
 # Installation & Local Setup
 
